@@ -1,0 +1,10 @@
+<!DOCTYPE html><html><head>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<style>body{margin:0}#map{height:100vh}</style></head>
+<body><div id="map"></div>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="/../sdk/map-sdk.js"></script>
+<script>
+const map=new RaviMap({container:'map',apiUrl:'/api'});
+map.showRoute([18.5204,73.8567],[18.5314,73.8446]);
+</script></body></html>
